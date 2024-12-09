@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches Deportivos Dana Espinosa</title>
+    <link rel="stylesheet" href="../css/Informacion.css">
+    <link rel="shortcut icon" href="../img/coche.png" type="image/x-icon">
+    <script src="../JS/Funciones.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" >Introducción</a>
+                <a href="../html/Tipos.html">Tipos</a>
+                <a href="../html/Galeria.html">Galería</a>
+                <a href="../html/Informacion.html">Información</a>
+                <a href="../html/Formulario.html">Formulario</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+            <section id="info">
+
+                <h3>Información</h3>
+                <button class="accordion">¿Quién inventó los coches deportivos?</button>
+                <div class="panel">
+                    <p>Introducido en mil novecientos uno, el motor de treinta y cinco CV fue diseñado por Wilhelm Maybach y Paul Daimler (hijo de Gottlieb Daimler). Representaba un cambio importante con respecto a los diseños de automóviles anteriores, que se parecían mucho a los carruajes de caballos. El motor de treinta y cinco CV se convirtió en una máquina de carreras dominante gracias a su fiabilidad y su potente motor.</p>
+                </div>
+    
+    
+                <button class="accordion">¿Cuál fue el primer coche deportivo?</button>
+                <div class="panel">
+                    <p>Muchos de los historiadores del motor de todo el mundo han aclamado al Vauxhall 'Prince Henry' como el primer coche deportivo. Diseñado por el muy admirado ingeniero de Vauxhall, Laurence Pomeroy, este automóvil recibió su nombre del éxito de Pomeroy con el A-Type de veinte caballos de fuerza en el Tour de Prusia de mil novecientos diez, un evento instigado por el Príncipe Enrique de Prusia.</p>
+                </div>
+    
+    
+                <button class="accordion">¿Cómo de rápido puede ir un coche deportivo?</button>
+                <div class="panel">
+                    <p>No es raro que los autos deportivos normales alcancen las doscientas mph en estos días, velocidades que sólo un puñado de superdeportivos podían alcanzar hace apenas quince años. Si bien hoy en día las doscientos mph parecen fáciles, los autos que superan las doscientos cincuenta mph necesitan fuerza bruta y una ingeniería increíble a otro nivel.</p>
+                </div>
+
+                <br><br>
+
+                <table>
+                    <thead>
+                        Conductores más famosos época dorada
+                    </thead>
+                    <tr>
+                      <th>Juan Manuel Fangio</th>
+                      <th>Alain Prost</th>
+                      <th>Ayrton Senna</th>
+                    </tr>
+                    <tr>
+                      <td>El "Maestro"</td>
+                      <td>El "Profesor"</td>
+                      <td>El "Genio"</td>
+                    </tr>
+                    <tr>
+                      <td>Argentino</td>
+                      <td>Francés</td>
+                      <td>Brasileño</td>
+                    </tr>
+                  </table>
+
+                  <br><br>
+                  <br><br>
+
+                <table>
+                    <thead>
+                        Conductores más famosos época actual
+                    </thead>
+                    <tr>
+                      <th>Michael Schumacher</th>
+                      <th>Lewis Hamilton</th>
+                      <th>Sebastian Vettel</th>
+                    </tr>
+                    <tr>
+                      <td>El "Kaiser"</td>
+                      <td>El "Rey"</td>
+                      <td>El "Baby Schumi"</td>
+                    </tr>
+                    <tr>
+                      <td>Alemán</td>
+                      <td>Británico</td>
+                      <td>Alemán</td>
+                    </tr>
+                  </table>
+                  <br><br>
+
+        <footer id="footer">
+            <p>Siguenos en redes:</p>
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <p>carsportcompany@gmail.com</p>
+            
+            <div class="nav">
+                <a href="../index.html">Introducción</a>
+                <a href="../html/Tipos.html">Tipos</a>
+                <a href="../html/Galeria.html">Galería</a>
+                <a href="../html/Informacion.html">Información</a>
+                <a href="../html/Formulario.html">Formulario</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches Deportivos Dana Espinosa</title>
+    <link rel="stylesheet" href="./css/ProyectoFinal.css">
+    <link rel="shortcut icon" href="./img/coche.png" type="image/x-icon">
+    <script src="./JS/Funciones.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" >Introducción</a>
+                <a href="html/Tipos.html">Tipos</a>
+                <a href="html/Galeria.html">Galería</a>
+                <a href="html/Informacion.html">Información</a>
+                <a href="html/Formulario.html">Formulario</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <section id= "hero">
+            Coches deportivos
+        </section>
+        <section id="intro">
+            <div class="titulo">Introducción</div>
+    
+    
+            <img id="drakkar" src="./img/cocheintro.jpg" alt="CoheDeprotivo">
+    
+    
+            <p>Un automóvil deportivo, también conocido como automóvil deportivo, es un tipo de vehículo diseñado principalmente para ofrecer alto rendimiento, velocidad, maniobrabilidad y una experiencia de conducción emocionante. <p>Estos automóviles a menudo se destacan por su diseño aerodinámico, potencia del motor y rendimiento avanzado. características y tecnología innovadora.</p>
+            <p>Los autos deportivos pueden variar en términos de diseño, desempeño y precio. Algunos ejemplos de marcas conocidas por fabricar autos deportivos incluyen Ferrari, Lamborghini, Porsche, McLaren, Chevrolet Corvette, entre otras. Estos vehículos son apreciados tanto por su rendimiento en pista como por su atractivo estético, lo que los convierte en símbolos de velocidad, lujo y prestigio en la industria automotriz.</p>
+            </section>
+
+
+        <footer id="footer">
+            <p>Siguenos en redes:</p>
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <p>carsportcompany@gmail.com</p>
+            
+            <div class="nav">
+                <a href="index.html">Introducción</a>
+                <a href="html/Tipos.html">Tipos</a>
+                <a href="html/Galeria.html">Galería</a>
+                <a href="html/Informacion.html">Información</a>
+                <a href="html/Formulario.html">Formulario</a>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+/**********************************************************/
+/*                                                        */
+/*              Dana Espinosa Ramos                       */
+/*                  1º DAW M                              */
+/*              Lenguaje de Marcas                        */
+/*                                                        */
+/**********************************************************/
+
+/************* fuentes ****************/
+
+@font-face {
+    font-family: texto;
+    src: url(../font/texto.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(../font/fuentehero.otf);
+}
+
+@font-face {
+    font-family: section;
+    src: url(../font/home.ttf); 
+}
+
+/******* general ********/
+
+body {background-color: rgb(14, 13, 13);
+        color: rgb(185, 185, 185);
+        font-family: texto;
+        font-size: 2em;
+        padding-top: 1%;
+        
+    }
+
+#wrapper {width:80%;
+        margin: auto;
+        background-color:rgb(27, 27, 29);
+        text-align: center;
+        box-shadow: 2px;
+        border-radius: 3%;
+        padding: 3%;
+
+}
+
+
+/***************** barra de navegación *******************/
+
+.topnav {
+    background-color: rgb(42, 42, 46);
+    overflow:hidden;
+    color:#8904aa
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #cccccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 0.8em;
+    position: sticky; 
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(27, 27, 27);
+    position: sticky; 
+    top: 0;
+}
+
+
+.topnav a.active {
+    background-color: #8904aa;
+    color: white;
+    position: sticky; 
+    top: 0;
+}
+
+
+.topnav .icon {
+    display:none;
+    position: sticky; 
+    top: 0;
+}
+
+
+nav {font-family:titulo;
+    text-align:left;
+    padding-bottom:15px;
+    padding-left:10px;
+    position: sticky; 
+    top: 0;
+}
+
+
+
+/************* Grid de 4 ****************/
+
+.grid-4 {display:grid;   
+    grid-template-columns: 50% 50%;
+    font-size:0.8em;
+    text-align:justify;}
+.col-4 {padding:4%;}
+
+#ejemplo-grid-4 .titulo {margin-top:50px;
+        font-family:titulo;
+        color:rgb(240, 72, 255);
+        font-size:1.2em;}
+
+#ejemplo-grid-4 img {width:100%}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(298, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(158, 24, 220) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(290, 80%, 48%);
+    color: hsla(0, 0%, 100%, 0.74);
+    box-shadow: rgb(220, 24, 210) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+/********** footer *************/
+
+footer{background-color:#363636;
+    color:white;
+    padding:20px;
+    font-family:texto;
+    border-radius: 20%;
+    text-align: center;}
+    
+.fa a {font-size: 1.3em;
+margin-right:10px;
+color:white;}
+
+.fa-twitter-square {color:#55ACEE;
+    font-family:texto;}
+
+.fa-youtube-play {color:#C4302B;
+    font-family:texto;}
+
+.fa-facebook-official {color:#3B5998;
+        font-family:texto;}
+
+.fa-instagram {color:#DD2AFB;
+font-family:texto;}
+
+.nav a {color:rgb(182, 182, 182);
+    text-align:center;}

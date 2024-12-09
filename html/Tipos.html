@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coches Deportivos Dana Espinosa</title>
+    <link rel="stylesheet" href="../css/Tipos.css">
+    <link rel="shortcut icon" href="../img/coche.png" type="image/x-icon">
+    <script src="../JS/Funciones.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="../index.html" class="active">Introducción</a>
+                <a href="../html/Tipos.html">Tipos</a>
+                <a href="../html/Galeria.html">Galería</a>
+                <a href="../html/Informacion.html">Información</a>
+                <a href="../html/Formulario.html">Formulario</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+            <section id="ejemplo-grid-4">
+                <div class="titulo">Tipos</div>
+                <div class="grid-4">
+                    <div class="col-4">
+                        <p>Cuando hablamos de 'coche viejo' nos referimos a un vehículo que ha resistido el paso del tiempo y sigue circulando por las carreteras. Sin embargo, no se considera un "coche clásico".</p>
+                        <button><b>Leer Más</b></button>
+                    </div>
+                    <div class="col-4">
+                        <img src="../img/cocheantiguo.jpg" alt="cocheantiguo">
+                    </div>
+                    <div class="col-4">
+                        <img src="../img/cochemoderno.jpg" alt="cochemoderno">
+                    </div>
+                    <div class="col-4">
+                        <p>Son coches que se caracterizan por su gran potencia, rápida aceleración, agilidad en la conducción y su capacidad para alcanzar altas velocidades. Los motores de los coches deportivos suelen ser potentes y de altas prestaciones, lo que les permite alcanzar velocidades muy elevadas en poco tiempo.</p>
+                        <button><b>Leer Más</b></button>
+                    </div>
+                    <div class="col-4">
+                        <p>Cada equipo monta su propio coche (nombre de los coches de Fórmula Uno) y compite por dos campeonatos: el campeonato de pilotos y el campeonato de equipos.</p>
+                    <button><b>Leer Más</b></button>
+                    </div>
+                    <div class="col-4">
+                        <img src="../img/formula1.jpg" alt="formula1">
+                    </div>
+                    <div class="col-4">
+                        <img src="../img/motosport.jpg" alt="motosport">
+                    </div>
+                    <div class="col-4">
+                        <p>MotoGP. La llaman la categoría reina del motociclismo porque es la máxima expresión mundial de la competición de motos de alta velocidad. Los prototipos de dos ruedas más rápidos para competir en el circuito. Donde se supone que compiten los mejores pilotos del mundo.</p>
+                        <button><b>Leer Más</b></button>
+                    </div>
+                </div>
+            </section>
+
+
+        <footer id="footer">
+            <p>Siguenos en redes:</p>
+            <a href=""><i class="fa fa-facebook-official"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <p>carsportcompany@gmail.com</p>
+            
+            <div class="nav">
+                <a href="../index.html">Introducción</a>
+                <a href="../html/Tipos.html">Tipos</a>
+                <a href="../html/Galeria.html">Galería</a>
+                <a href="../html/Informacion.html">Información</a>
+                <a href="../html/Formulario.html">Formulario</a>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+        });
+    }
+    </script>
+</body>
+</html>
